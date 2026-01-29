@@ -5,17 +5,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="React logo" />
+
+        <h1>Welcome to Rohit’s Frontend App 🚀</h1>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This React application is deployed using
+          <strong> GitHub Actions</strong> and
+          <strong> AWS Elastic Beanstalk</strong>.
         </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React from Rohit
+          Learn React
         </a>
       </header>
     </div>
